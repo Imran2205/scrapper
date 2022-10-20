@@ -1,8 +1,9 @@
 import scrapy
+import json
 
 
 class QuotesSpider(scrapy.Spider):
-    name = "quotes"
+    name = "scraper"
 
     def start_requests(self):
         urls = [
@@ -36,9 +37,10 @@ class QuotesSpider(scrapy.Spider):
         print(response)
         page = response.url.split("/")[-1].split('.')[0]
         print('#########################################################################', page)
-        filename = f'quotes-{page}.html'
+        filename = f'{self.name}_{page.lower()}_table_data.json'
         device_summary_divs = response.css('div.device-summary-container')
         device_summary_tables = device_summary_divs.css('div.device-summary-table')
+        table_dict = {}
         for table in device_summary_tables:
             tab_head = table.css('h6::text')[0].get()
             print('************************************', tab_head)
@@ -46,7 +48,7 @@ class QuotesSpider(scrapy.Spider):
             keys = table.css('span.label')
             values = table.css('span.label-value')
 
-            sub_table_dict = {}
+            table_dict[tab_head] = {}
             for i, key in enumerate(keys):
                 key_span = key
                 val_span = values[i]
@@ -57,8 +59,16 @@ class QuotesSpider(scrapy.Spider):
                 key_val = self.get_text_from_span(key_span)
                 val_val = self.get_text_from_span(val_span)
 
+                table_dict[tab_head][key_val] = val_val
+
                 print(key_val, ':', val_val)
 
             print('#########################################################################', len(keys), len(values))
 
+        with open(f'{filename}', 'w') as f:
+            json.dump(table_dict, f, indent=4)
+
         self.log(f'Saved file {filename}')
+
+
+# scrapy crawl quotes
