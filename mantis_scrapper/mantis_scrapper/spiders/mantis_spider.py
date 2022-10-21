@@ -1,5 +1,6 @@
 import scrapy
 import json
+from scrapy.crawler import CrawlerProcess
 
 
 class MantisSpider(scrapy.Spider):
@@ -92,3 +93,7 @@ class MantisSpider(scrapy.Spider):
 
 
 # scrapy crawl scraper
+if __name__ == "__main__":
+  proc = CrawlerProcess()
+  proc.crawl(MantisSpider)
+  proc.start()
