@@ -91,4 +91,4 @@ class MantisSpider(scrapy.Spider):
         self.log(f'Saved file {filename}')
 
 
-# scrapy crawl quotes
+# scrapy crawl scraper
