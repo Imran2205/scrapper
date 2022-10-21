@@ -2,7 +2,7 @@ import scrapy
 import json
 
 
-class QuotesSpider(scrapy.Spider):
+class MantisSpider(scrapy.Spider):
     name = "scraper"
 
     def start_requests(self):
@@ -64,6 +64,26 @@ class QuotesSpider(scrapy.Spider):
                 print(key_val, ':', val_val)
 
             print('#########################################################################', len(keys), len(values))
+
+        violations_div = response.css('div.ag-center-cols-container')
+
+        violation_rows = violations_div.css('div.ag-row')
+
+        print("***************************************************************************")
+        table_dict['Violations'] = {}
+        for r_c, row in enumerate(violation_rows):
+            check = row.css('div[col-id="check"]::text').get().replace('\n', '')
+            review = row.css('div[col-id="reviews"]::text').get().replace('\n', '')
+            e_cell_val = row.css('span[ref="eCellValue"]::text').get().replace('\n', '')
+            hier = row.css('div[col-id="hier_error_count"]::text').get().replace('\n', '')
+            table_dict['Violations'][f"{r_c}"] = {
+                'e_cell_value': e_cell_val,
+                'check': check,
+                'review': review,
+                'hier_error_count': hier
+            }
+            print(e_cell_val, '||', review, '||', check, '||', hier)
+        print("***************************************************************************")
 
         with open(f'{filename}', 'w') as f:
             json.dump(table_dict, f, indent=4)
