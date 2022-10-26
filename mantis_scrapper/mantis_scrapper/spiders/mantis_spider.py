@@ -1,15 +1,16 @@
 import scrapy
 import json
 from scrapy.crawler import CrawlerProcess
+import os
 
 
 class MantisSpider(scrapy.Spider):
     name = "scraper"
+    stat_urls = []
+    out_path = ''
 
     def start_requests(self):
-        urls = [
-            'file://C:/Users/admin/Desktop/desktop/web/scrapper/html/Mantis.html',
-        ]
+        urls = self.stat_urls
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
@@ -38,7 +39,8 @@ class MantisSpider(scrapy.Spider):
         print(response)
         page = response.url.split("/")[-1].split('.')[0]
         print('#########################################################################', page)
-        filename = f'{self.name}_{page.lower()}_table_data.json'
+        output_path = self.out_path
+        filename = f'{page.lower()}.json'
         device_summary_divs = response.css('div.device-summary-container')
         device_summary_tables = device_summary_divs.css('div.device-summary-table')
         table_dict = {}
@@ -73,10 +75,26 @@ class MantisSpider(scrapy.Spider):
         print("***************************************************************************")
         table_dict['Violations'] = {}
         for r_c, row in enumerate(violation_rows):
-            check = row.css('div[col-id="check"]::text').get().replace('\n', '')
-            review = row.css('div[col-id="reviews"]::text').get().replace('\n', '')
-            e_cell_val = row.css('span[ref="eCellValue"]::text').get().replace('\n', '')
-            hier = row.css('div[col-id="hier_error_count"]::text').get().replace('\n', '')
+            try:
+                check = row.css('div[col-id="check"]::text').get().replace('\n', '').replace('\r', '')
+            except:
+                check = row.css('div[col-id="check"]::text').get()
+
+            try:
+                review = row.css('div[col-id="reviews"]::text').get().replace('\n', '').replace('\r', '')
+            except:
+                review = row.css('div[col-id="reviews"]::text').get()
+
+            try:
+                e_cell_val = row.css('span[ref="eCellValue"]::text').get().replace('\n', '').replace('\r', '')
+            except:
+                e_cell_val = row.css('span[ref="eCellValue"]::text').get()
+
+            try:
+                hier = row.css('div[col-id="hier_error_count"]::text').get().replace('\n', '').replace('\r', '')
+            except:
+                hier = row.css('div[col-id="hier_error_count"]::text').get()
+
             table_dict['Violations'][f"{r_c}"] = {
                 'e_cell_value': e_cell_val,
                 'check': check,
@@ -86,7 +104,7 @@ class MantisSpider(scrapy.Spider):
             print(e_cell_val, '||', review, '||', check, '||', hier)
         print("***************************************************************************")
 
-        with open(f'{filename}', 'w') as f:
+        with open(os.path.join(output_path, filename), 'w') as f:
             json.dump(table_dict, f, indent=4)
 
         self.log(f'Saved file {filename}')
