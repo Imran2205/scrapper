@@ -72,6 +72,7 @@ for file in json_files:
         open_json_file = os.path.join(output_json_path, file)
         with open(open_json_file, 'r') as f:
             json_data = json.load(f)
+        json_data['url'] = f"{base_url}{file.split('.')[0]}"
         master_json[file.split('.')[0]] = json_data
 
 with open(os.path.join(output_json_path, 'master.json'), 'w') as f:
