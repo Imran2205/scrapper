@@ -1,6 +1,6 @@
 import json
 import os
-
+import re
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
@@ -15,8 +15,17 @@ from mantis_scrapper.mantis_scrapper.spiders.mantis_spider import MantisSpider
 # from pyvirtualdisplay import Display
 
 task_list = [
-    '2166972',
-    '2166973'
+    2243870,
+    2243877,
+    2243885,
+    2243886,
+    2243889,
+    2243893,
+    2243914,
+    2243942,
+    2244084,
+    2244085,
+    2244099,
 ]
 
 base_url = "https://mantis.tapeout.cso:8088/mantis/v4/#/job-report/view/"
@@ -79,7 +88,9 @@ for count, url in enumerate(urls):
         driver.find_element(By.NAME, 'password').send_keys('GFULKA@@@1234')
         driver.find_element(By.CLASS_NAME, 'mat-raised-button').click()
 
-        time.sleep(10)
+    # time.sleep(20)
+    while f'>{job_id}</' not in driver.page_source:
+        time.sleep(2)
 
     try:
         element_present = EC.presence_of_element_located((By.CLASS_NAME, 'device-summary-container'))
@@ -89,10 +100,17 @@ for count, url in enumerate(urls):
 
     html = driver.page_source
 
+    html = re.sub(r"reviews_\d", "reviews", html)
+    html = re.sub(r"check_\d", "check", html)
+    html = re.sub(r"eCellValue_\d", "eCellValue", html)
+    html = re.sub(r"hier_error_count_\d", "hier_error_count", html)
+
     with open(html_out_file, 'w') as f:
         f.write(html)
 
     proc.crawl(MantisSpider, stat_urls=[f'file://{html_out_file}'], out_path=output_json_path)
+
+    # ActionChains(driver).key_down(Keys.CONTROL).send_keys('t').key_up(Keys.CONTROL).perform()
 
 driver.close()
 driver.quit()

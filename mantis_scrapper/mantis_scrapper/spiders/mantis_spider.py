@@ -45,7 +45,7 @@ class MantisSpider(scrapy.Spider):
         device_summary_tables = device_summary_divs.css('div.device-summary-table')
         table_dict = {}
         for table in device_summary_tables:
-            tab_head = table.css('h6::text')[0].get()
+            tab_head = table.css('h6::text')[0].get().strip().replace(':', '')
             print('************************************', tab_head)
 
             keys = table.css('span.label')
@@ -59,8 +59,8 @@ class MantisSpider(scrapy.Spider):
                 # print(key_span, '||', key_span.xpath("./*").get())
                 # print(val_span.get(), '||', key_span.xpath("./*").get())
 
-                key_val = self.get_text_from_span(key_span)
-                val_val = self.get_text_from_span(val_span)
+                key_val = self.get_text_from_span(key_span).strip().replace(':', '')
+                val_val = self.get_text_from_span(val_span).strip()
 
                 table_dict[tab_head][key_val] = val_val
 
