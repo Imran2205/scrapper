@@ -36,17 +36,17 @@ class MantisSpider(scrapy.Spider):
         return ret_str
 
     def parse(self, response):
-        print(response)
+        # print(response)
         page = response.url.split("/")[-1].split('.')[0]
-        print('#########################################################################', page)
+        # print('#########################################################################', page)
         output_path = self.out_path
         filename = f'{page.lower()}.json'
         device_summary_divs = response.css('div.device-summary-container')
         device_summary_tables = device_summary_divs.css('div.device-summary-table')
         table_dict = {}
         for table in device_summary_tables:
-            tab_head = table.css('h6::text')[0].get().strip().replace(':', '')
-            print('************************************', tab_head)
+            tab_head = table.css('h6::text')[0].get().strip().replace(':','')
+            # print('************************************', tab_head)
 
             keys = table.css('span.label')
             values = table.css('span.label-value')
@@ -56,23 +56,23 @@ class MantisSpider(scrapy.Spider):
                 key_span = key
                 val_span = values[i]
 
-                # print(key_span, '||', key_span.xpath("./*").get())
-                # print(val_span.get(), '||', key_span.xpath("./*").get())
+                # #print(key_span, '||', key_span.xpath("./*").get())
+                # #print(val_span.get(), '||', key_span.xpath("./*").get())
 
-                key_val = self.get_text_from_span(key_span).strip().replace(':', '')
+                key_val = self.get_text_from_span(key_span).strip().replace(':','')
                 val_val = self.get_text_from_span(val_span).strip()
 
                 table_dict[tab_head][key_val] = val_val
 
-                print(key_val, ':', val_val)
+                # print(key_val, ':', val_val)
 
-            print('#########################################################################', len(keys), len(values))
+            # print('#########################################################################', len(keys), len(values))
 
         violations_div = response.css('div.ag-center-cols-container')
 
         violation_rows = violations_div.css('div.ag-row')
 
-        print("***************************************************************************")
+        # print("***************************************************************************")
         table_dict['Violations'] = {}
         for r_c, row in enumerate(violation_rows):
             try:
@@ -95,14 +95,21 @@ class MantisSpider(scrapy.Spider):
             except:
                 hier = row.css('div[col-id="hier_error_count"]::text').get()
 
+            try:
+                status_button_div = row.css('div[col-id="hier_error_count"]')
+                status = row.css('button::text').get()
+            except:
+                status = ""
+
             table_dict['Violations'][f"{r_c}"] = {
                 'e_cell_value': e_cell_val,
                 'check': check,
                 'review': review,
-                'hier_error_count': hier
+                'hier_error_count': hier,
+                'status': status
             }
-            print(e_cell_val, '||', review, '||', check, '||', hier)
-        print("***************************************************************************")
+            # print(e_cell_val, '||', review, '||', check, '||', hier)
+        # print("***************************************************************************")
 
         with open(os.path.join(output_path, filename), 'w') as f:
             json.dump(table_dict, f, indent=4)
