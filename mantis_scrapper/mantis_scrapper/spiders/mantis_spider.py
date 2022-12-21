@@ -96,8 +96,8 @@ class MantisSpider(scrapy.Spider):
                 hier = row.css('div[col-id="hier_error_count"]::text').get()
 
             try:
-                status_button_div = row.css('div[col-id="hier_error_count"]')
-                status = row.css('button::text').get()
+                status_button_div = row.css('div[col-id="status"]')
+                status = status_button_div.css('button::text').get()
             except:
                 status = ""
 
