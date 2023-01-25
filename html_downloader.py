@@ -104,6 +104,7 @@ for count, url in enumerate(urls):
     html = re.sub(r"check_\d", "check", html)
     html = re.sub(r"eCellValue_\d", "eCellValue", html)
     html = re.sub(r"hier_error_count_\d", "hier_error_count", html)
+    html = re.sub(r"status_\d", "status", html)
 
     with open(html_out_file, 'w') as f:
         f.write(html)
