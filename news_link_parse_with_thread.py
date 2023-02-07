@@ -19,7 +19,23 @@ news_webs = [
 ]
 
 key_words = [
-
+    "smartphone", "smartphone technology",
+    "wearables", "smart watch", "smart glasses", "ar/vr headsets", "ar headsets", "vr headsets",
+    "iphone", "android smartphone",
+    "apple", "samsung", "xiaomi", "oppo", "vivo",
+    "qualcomm", "nxp", "mediaTek", "cirrus logic", "skyworks", "qorvo", "broadcom", "sony", "murata",
+    "wifi", "cellular", "5g", "6g", "uwb", "nfc",
+    "apple pay", "android pay",
+    "magsafe", "wireless charging",
+    "power management", "battery management",
+    "envelope tracker",
+    "rf front end", "transceiver", "modem",
+    "mmwave", "fr2", "fr3",
+    "oled display", "uled", "ltpo", "display driver ic",
+    "smartphone camera", "image sensing", "3d sensing", "camera",
+    "smart audio",
+    "haptics",
+    "satellite to smartphone connectivity"
 ]
 
 WINDOW_SIZE = "1000,600"
@@ -73,6 +89,25 @@ def link_parser(web_links):
 
         time.sleep(2)
         soup = BeautifulSoup(html, 'html.parser')
+        if len(url.split('/')) > 4:
+            tag_div_ids = ["article-tags-row", "article-tags-bottom-row"]
+            tags_list = []
+            for tag_div_id in tag_div_ids:
+                tags_divs = soup.find_all("div", {"id": tag_div_id})
+                for tags_div in tags_divs:
+                    tags = tags_div.find_all(
+                        'a', {"class": "tag"}
+                    )
+                    key_word_match = False
+                    for tag in tags:
+                        if tag not in tags_list:
+                            tags_list.append(tag.text.encode("utf-8"))
+                            if tag.lower() in key_words:
+                                key_word_match = True
+                    if key_word_match:
+                        with open("matched_urls.txt", 'a') as fa:
+                            fa.write(url + " | " + ",".join(tags_list))
+            exit()
 
         urls = []
         for link in soup.find_all('a'):
