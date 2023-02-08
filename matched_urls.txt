@@ -1,99 +1,41 @@
-https://www.fiercewireless.com/tech/nokia-bulks-e-band-portfolio-5g?itm_source=parsely-api | Nokia,backhaul,microwave,5G,Tech,climate change
-https://www.fiercewireless.com/5g/nokia-expects-mobile-be-its-fastest-growing-business-2023 | Nokia,India,standalone (SA),5G,5G
-https://www.fiercewireless.com/wireless/ericsson-nokia-win-india-5g-deals-samsung-may-be-biggest-winner | Samsung,Reliance Jio,bharti airtel,ericsson,Wireless,Nokia
-https://www.fiercewireless.com/tech/deutsche-telekom-kicks-6g-research-project | Deutsche Telekom,6G,standalone (SA),5G,Tech,GSMA
-https://www.fiercewireless.com/tech/1nce-aims-disrupt-cellular-iot-os-front | Internet of Things (IoT),5G,LTE-M,NB-IoT,Tech,LoRaWAN,Deutsche Telekom,SoftBank,T-Mobile,Sprint,Vodafone
-https://www.fiercewireless.com/tech/att-shifts-gears-iot-connected-cars | AT&T,Internet of Things (IoT),5G,4G LTE,Tech,NB-IoT,connected car,C-V2X
-https://www.fiercewireless.com/5g/verizons-q4-would-have-been-worse-if-3g-losses-were-mix-analyst | Verizon,AT&T,T-Mobile,3g,5G,CDMA,5G,MoffettNathanson,quarterly earnings
-https://www.fiercewireless.com/5g/national-science-foundation-experiments-open-source-5g-technology | National Science Foundation,5G,open source,open RAN,5G
-https://www.fiercewireless.com/5g/ericsson-aerpaw-field-5g-demo-cattle-north-carolina | ericsson,agriculture,National Science Foundation,5G,5G,Drones
-https://www.fiercewireless.com/wireless/pawr-program-completes-first-phase-advanced-research-testbed | Massive MIMO,network functions virtualization,open source,FCC,Tech,5G,Wireless,ONAP
-https://www.fiercewireless.com/tech/ee-starts-deploying-ericssons-air-3268-london | ericsson,BT,Massive MIMO,energy efficiency,Tech,energy consumption,5G
-https://www.fiercewireless.com/tech/bt-eyes-haps-4g5g-rural-coverage | BT,stratosphere,High-Altitude Platform Stations (HAPS),rural areas,Tech,5G,4G LTE
-https://www.fiercewireless.com/tech/alphabet-s-loon-partners-softbank-s-hapsmobile-for-stratospheric-connectivity | 5G,balloon,Drone,Loon,Wireless,Tech,Project Loon,SoftBank
-https://www.fiercewireless.com/wireless/ericsson-faces-lawsuit-over-russia-withdrawal-report | ericsson,Russia,lawsuit,5G,Wireless
-https://www.fiercewireless.com/5g/dish-blasts-back-spacex-over-12-ghz-claims | Dish Network,RS Access,FCC,SpaceX,5G,12 GHz,Ukraine,5G
-https://www.fiercewireless.com/wireless/ergen-berkman-use-spacs-latest-wireless-financing-scheme | 5G NR,Charles Ergen,Dish Network,5G,Wireless
-https://www.fiercewireless.com/wireless/cbrs-riles-folks-different-sides-spectrum-debate | FCC,Citizens Broadband Radio Service (CBRS),3.5 GHz band,5G,Wireless,midband spectrum,Roger Entner,Verizon,New Street Research,CTIA,Charter Communications,AT&T
-https://www.fiercewireless.com/private-wireless/what-cbrs#:~:text=Citizens%20Broadband%20Radio%20Service%20(CBRS)%20refers%20to%20150%20MHz%20of,PAL)%20users%20and%20general%20authorized | Citizens Broadband Radio Service (CBRS),PALs,private wireless networks,spectrum auction,Private Wireless,spectrum sharing,wireless spectrum,Amdocs,CommScope,FCC,Federated Wireless,Google,Private Wireless Fundamentals,Sony
-https://www.fiercewireless.com/5g/cbrs-auction-tops-3-5-billion-as-bidders-bargain-hunt | 3.5 GHz band,5G,Citizens Broadband Radio Service (CBRS),PALs,Private Wireless,Wireless,5G,spectrum auction,CommScope,FCC
-https://www.fiercewireless.com/wireless/cbrs-pal-auction-poised-to-be-a-doozy-possibly-raising-10b | 3.5 GHz band,5G,Citizens Broadband Radio Service (CBRS),midband spectrum,Private Wireless,Tech,5G,Wireless,AT&T,Comcast,Dish Network,FCC,T-Mobile,Verizon
-https://www.fiercewireless.com/wireless/editor-s-corner-early-cbrs-deployments-indoors-or-out | 3.5 GHz band,Citizens Broadband Radio Service (CBRS),spectrum sharing,Amdocs,Tech,5G,Wireless,CBRS Alliance,Celona,FCC,Federated Wireless
-https://www.fiercewireless.com/wireless/fcc-approves-initial-commercial-deployments-cbrs | 3.5 GHz band,Citizens Broadband Radio Service (CBRS),Amdocs,CBRS Alliance,Tech,5G,Wireless,CommScope,FCC,Federated Wireless,Google,Sony
-https://www.fiercewireless.com/wireless/fcc-moves-toward-june-2020-auction-cbrs-spectrum | 3.5 GHz band,5G,Citizens Broadband Radio Service (CBRS),CBRS Alliance,Tech,5G,Wireless,Private Wireless,Chetan Sharma,FCC
-https://www.fiercewireless.com/wireless/editor-s-corner-u-s-needs-to-fix-its-mid-band-problem-stat | 3.5 GHz band,5G,C-band,midband spectrum,Tech,5G,Wireless,millimeter wave,Ajit Pai,Brendan Carr,Donald Trump,FCC,Geoffrey Starks,Jessica Rosenworcel,Michael O'Rielly
-https://www.fiercewireless.com/5g/t-mobile-smokes-past-verizon-att-5g-speedtest | T-Mobile,Verizon,AT&T,Ookla,5G,5G,midband spectrum,2.5 GHz,C-band,Sprint
-https://www.fiercewireless.com/wireless/t-mobile-bashes-verizon-at-t-as-it-lights-up-nationwide-5g | 5G,600 MHz,millimeter wave,prepaid,Tech,5G,Wireless,AT&T,John Legere,Neville Ray,Sprint,T-Mobile,Verizon
-https://www.fiercewireless.com/operators/t-mobile-leases-600-mhz-spectrum-from-columbia-capital | 5G,600 MHz,AllNet Insights & Analytics,columbia capital,5G,Wireless,Dish Network,FCC,LightShed Partners,T-Mobile
-https://www.fiercewireless.com/wireless/t-mobile-99-americans-covered-lte-no-joke | T-Mobile,4G LTE,5G,AT&T,Wireless,Verizon,Dish Network,AllNet Insights & Analytics,strategy analytics,Recon Analytics,us cellular
-https://www.fiercewireless.com/5g/deutsche-telekom-will-use-low-band-spectrum-boost-rural-5g | Deutsche Telekom,700 mhz,5G
-https://www.fiercewireless.com/5g/deutsche-telekom-touts-5g-sa-rollout-germany | Deutsche Telekom,standalone (SA),5G,Vodafone Germany,5G,midband spectrum,private 5G
-https://www.fiercewireless.com/5g/vodafone-boasts-5g-standalone-expansion-germany | Vodafone Germany,5G,standalone (SA),non-standalone (NSA),5G
-https://www.fiercewireless.com/5g/vodafone-uk-trials-5g-standalone-plans-activate-next-year | Vodafone UK,5G,standalone (SA),non-standalone (NSA),5G
-https://www.fiercewireless.com/tech/dish-and-verizon-drive-open-ran-uptake-2022-delloro | Dish Network,Verizon,open RAN,Dell'Oro,Tech,Samsung,Fujitsu,Mavenir
-https://www.fiercewireless.com/5g/mareks-take-t-mobiles-success-will-force-bigger-move-mmwave | T-Mobile,fixed wireless access,millimeter wave,Mike Sievert,5G,Neville Ray,broadband internet
-https://www.fiercewireless.com/wireless/t-mobile-ceo-boasts-progress-sprint-integration | T-Mobile,Sprint,5G,mergers and acquisitions,Wireless,Mike Sievert
-https://www.fiercewireless.com/operators/t-mobile-metro-by-t-mobile-pushes-national-retail-presence-at-2-300-walmart-stores | 5G,prepaid,retail stores,retail strategy,Wireless,Metro by T-Mobile,Sprint,T-Mobile,walmart,Wave7 Research
-https://www.fiercewireless.com/wireless/2019-preview-mid-band-spectrum-takes-center-stage | 2019 Preview,5G,midband spectrum,satellite operators,Tech,5G,Wireless,C-band,FCC,T-Mobile
-https://www.fiercewireless.com/private-wireless/tip-develops-blueprint-5g-private-wireless-networks | Rakuten Symphony,NTT,telecom infra project,Tech Mahindra,Tech,Private Wireless,spirent,5G,private wireless networks,Nokia
-https://www.fiercewireless.com/tech/mareks-take-deciphering-satellite-cellular-opportunity | Qualcomm,Lynk,Iridium,Apple,Tech,Globalstar,T-Mobile,AST SpaceMobile,Starlink
-https://www.fiercewireless.com/5g/qualcomm-boosts-mmwave-coverage-compact-macro-cell-site | Qualcomm,cell sites,fixed wireless access,5G
-https://www.fiercewireless.com/operators/altiostar-brings-rakuten-and-dish-together | 5G,baseband,cell sites,network slicing,Wireless,transport,Altiostar,Dish Network,Rakuten,Symphony
-https://www.fiercewireless.com/5g/nokia-highlights-turnaround-new-5g-ran-portfolio | 5G,baseband,Massive MIMO,open RAN,Wireless,5G,radio access network (RAN),Nokia,O-RAN,Tommi Uitto
-https://www.fiercewireless.com/wireless/ericsson-tied-isis-bribes-iraq | ericsson,Huawei,5G,Department of Justice,Wireless
-https://www.fiercewireless.com/wireless/protests-apples-chinese-factory-likely-cause-iphone-shortages | Apple,iphone,Foxconn,China,Wireless
-https://www.fiercewireless.com/wireless/black-friday-deals-abound-switchers-upgraders | AT&T,T-Mobile,Verizon,Navi,Wireless,black friday,carrier promotions,iphone,Android
-https://www.fiercewireless.com/wireless/att-targets-single-line-users-cheaper-5g-unlimited-plan | AT&T,unlimited data plans,carrier promotions,5G,5G,Wireless,william ho,556 Ventures,Navi,Verizon,T-Mobile
-https://www.fiercewireless.com/wireless/verizon-gets-back-basics-no-frills-welcome-unlimited-plan | Verizon,T-Mobile,prepaid,price competition,Wireless,5G
-https://www.fiercewireless.com/operators/dish-launches-its-own-celero5g-phone-for-boost | 5G,MVNO,prepaid,AT&T,5G,Wireless,Boost Mobile,Dish Network,T-Mobile
-https://www.fiercewireless.com/operators/t-mobile-dish-go-to-war-over-boost | 3g,5G,MVNO,prepaid,5G,Wireless,Boost Mobile,Dish Network,Sprint,T-Mobile
-https://www.fiercewireless.com/5g/verizon-readies-5g-c-band-launch-limits-deployment-near-airports | Verizon,AT&T,C-band,5G,Wireless,5G,FAA,FCC,Joe Biden
-https://www.fiercewireless.com/tech/airlines-warnings-latest-5g-c-band-request | AT&T,Verizon,5G,C-band,5G,Wireless,Tech,FAA,FCC,regulation,interference
-https://www.fiercewireless.com/operators/at-t-verizon-postpone-c-band-rollouts-until-air-safety-review | 5G,C-band,AT&T,C-band,5G,Wireless,FCC,Federal Aviation Administration,Verizon
-https://www.fiercewireless.com/regulatory/faa-issues-warning-potential-safety-risks-from-5g-c-band | 5G,C-band,interference,regulation,5G,Wireless,5G Americas,CTIA,FCC,NTIA
-https://www.fiercewireless.com/operators/verizon-absolutely-track-to-build-7-8k-c-band-sites-year-cfo | 5G,midband spectrum,smartphones,C-band,Tech,5G,Wireless,FCC,Verizon
-https://www.fiercewireless.com/5g/ericsson-plans-turn-vonage-5g-app-powerhouse | ericsson,vonage,5G,5G
-https://www.fiercewireless.com/5g/podcast-arvin-singh-managing-director-5g-edge-innovation-verizon-business | podcast,Verizon Business,application developers,enterprise,Wireless,5G
-https://www.fiercewireless.com/5g/podcast-mirko-voltolini-vp-innovation-colt-technology-talks-5g-and-network-evolution | low latency,Colt Technology Services,Connectivity,24 7 fiber network,Hybrid,Tech,Wireless,5G,networking
-https://www.fiercewireless.com/5g/verizon-launches-private-5g-for-enterprise-public-sector | 5G,enterprise,IoT,millimeter wave,Tech,Wireless,5G,private 5G,private wireless networks,MEC,Sampath Sowmyanarayan,Verizon
-https://www.fiercewireless.com/wireless/sierra-wireless-expands-iot-wholesale-deal-t-mobile | T-Mobile,sierra wireless,IoT,5G,5G,Wireless,NB-IoT,MVNO
-https://www.fiercewireless.com/wireless/from-at-t-to-verizon-tracking-q2-2018-earnings-wireless | quarterly earnings,Apple,AT&T,ericsson,Wireless,Nokia,Samsung,Verizon
-https://www.fiercewireless.com/wireless/from-at-t-to-verizon-tracking-q1-2018-earnings-wireless | earnings,quarterly earnings,AT&T,ericsson,Wireless,Nokia,Qualcomm,Verizon
-https://www.fiercewireless.com/tech/mimosa-wants-fcc-to-open-10-0-10-5-ghz-band-for-backhaul | 5G,Tech
-https://www.fiercewireless.com/tech/5g-transformations-and-a-fond-farewell | 5G,Tech
-https://www.fiercewireless.com/tech/5g-requires-new-radio-channel-models-says-ericsson-research | 5G,Tech
-https://www.fiercewireless.com/tech/mimosa-encouraged-by-senate-support-for-10-ghz | 5G,Tech
-https://www.fiercewireless.com/operators/india-s-recent-spectrum-auction-opening-opportunities-putcha | 4G LTE,5G,India,spectrum auction,Wireless,Altiostar,bharti airtel,Ciena,Foxconn,Mavenir,NEC,parallel wireless,Reliance Jio,Ruckus,Ruckus Wireless,Vodafone Idea
-https://www.fiercewireless.com/wireless/survey-telecom-marketers-highlights-ineffective-use-customer-data | big data,data analytics,digital marketing,telco,5G,Wireless
-https://www.fiercewireless.com/iot/news-note-huawei-and-samsung-settle-patent-dispute-plus-more | News of Note,Huawei,Nokia,Samsung
-https://www.fiercewireless.com/private-wireless/will-private-5g-rescue-fragmented-ric-market-madden | RAN intelligent controller (RIC),mobile experts,Virtualization,open RAN,Private Wireless,5G,private 5G
-https://www.fiercewireless.com/wireless/dish-trials-vmwares-ric-ahead-5g-network-launch | Dish Network,VMware,RAN intelligent controller (RIC),open RAN,5G,Wireless,5G,radio access network (RAN)
-https://www.fiercewireless.com/5g/nokia-ericsson-mavenir-benefit-5g-sa-expansions-2023?itm_source=parsely-api | Nokia,ericsson,Mavenir,5G,5G,standalone (SA),Counterpoint Research,Dell'Oro
-https://www.fiercewireless.com/tech/ericsson-red-hat-support-sparks-5g-sa-trial-new-zealand | ericsson,Red Hat,Mavenir,Nokia,Tech,Oppo,Amazon Web Services
-https://www.fiercewireless.com/wireless/samsung-focuses-vranopen-ran-coalition-cbrs-private-networks-sangam | Samsung,Dell,HPE,Red Hat,Wireless,Wind River,open RAN
-https://www.fiercewireless.com/5g/qualcomm-arm-legal-spat-regarding-nuvia-becomes-more-bitter | Qualcomm,arm,chipsets,NUVIA,5G
-https://www.fiercewireless.com/5g/samsung-networks-lures-two-executives-away-ericsson | Samsung,ericsson,5G,5G
-https://www.fiercewireless.com/private-wireless/samsung-takes-dual-approach-private-networks | Samsung,private wireless networks,Amdocs,Ciena,Wireless,Private Wireless,Citizens Broadband Radio Service (CBRS),private 5G,NTT
-https://www.fiercewireless.com/private-wireless/chinas-private-wireless-vs-us-who-wins-madden | China,China Mobile,private wireless networks,5G,Private Wireless
-https://www.fiercewireless.com/tech/fwa-from-big-carriers-different-than-fwa-from-wisps | 5G,fixed wireless,fixed wireless access,FCC,5G,Wireless,Tech,T-Mobile,Verizon,Wireless Internet Service Providers Association (WISPA)
-https://www.fiercewireless.com/tech/t-mobile-s-ulf-ewaldsson-says-time-has-come-for-fixed-wireless | 5G,fixed wireless,fixed wireless access,ericsson,Wireless,Tech,Nex-Tech Wireless,T-Mobile,U.S. Cellular
-https://www.fiercewireless.com/operators/verizon-t-mobile-get-ready-to-rumble-cable | 2.5 GHz,5G,C-band,fixed wireless access,Wireless,AT&T,T-Mobile,Verizon
-https://www.fiercewireless.com/tech/t-mobiles-5g-network-gets-capacity-boost-mu-mimo-report | T-Mobile,Multi-user MIMO (MU-MIMO),signals research group,5G,Tech,2.5 GHz,fixed wireless access,Verizon
-https://www.fiercewireless.com/tech/wi-fi-alliance-names-kevin-robinson-ceo | Wi-Fi Alliance,Wi-Fi,Wi-Fi 6E,6 GHz,Tech,5G
-https://www.fiercewireless.com/tech/docomo-ntt-sign-6g-pact-fujitsu-nec-nokia | NTT DoCoMo,NTT,Nokia,Fujitsu,Tech,Japan,6G
-https://www.fiercewireless.com/tech/samsung-expands-5g-open-ran-radios-ntt-docomo | Samsung,NTT DoCoMo,5G,open RAN,Tech,midband spectrum,millimeter wave
-https://www.fiercewireless.com/operators/samsung-wins-5g-deal-ntt-docomo-japan | 5G,carrier aggregation,contracts,millimeter wave,Tech,5G,Wireless,KDDI,NTT DoCoMo,Samsung,SoftBank
-https://www.fiercewireless.com/tech/bt-nokia-boast-breakthrough-5g-carrier-aggregation | BT,Nokia,5G,carrier aggregation,Tech,midband spectrum
-https://www.fiercewireless.com/operators/uk-operators-bolster-5g-spectrum-holdings-after-3-day-auction | 5G,700 mhz,midband spectrum,spectrum auction,5G,Wireless,wireless spectrum,BT,EE UK,O2 UK,Ofcom,Telefonica,Three UK,UK,Vodafone
-https://www.fiercewireless.com/5g/ee-s-700-mhz-purchase-could-boost-rural-5g-tutela | 5G,700 mhz,midband spectrum,spectrum auction,Wireless,5G,BT,Tutela,Vodafone
-https://www.fiercewireless.com/operators/verizon-defends-c-band-plans | 5G,C-band,midband spectrum,C-band,5G,Wireless,T-Mobile,Verizon
-https://www.fiercewireless.com/regulatory/verizon-pledges-whopping-45b-c-band-auction | 5G,C-band,spectrum auction,AT&T,5G,Wireless,Dish Network,FCC,T-Mobile,Verizon
-https://www.fiercewireless.com/wireless/wia-chief-shares-concerns-about-c-band-s-80b-price-tag | 5G,C-band,midband spectrum,spectrum auction,5G,Wireless,AT&T,Dish Network,FCC,T-Mobile,Verizon,Wireless Infrastructure Association
-https://www.fiercewireless.com/5g/nokia-s-head-u-s-sales-worries-about-c-band-costs | 5G,C-band,capex,AT&T,Wireless,5G,Dish Network,Nokia,T-Mobile,Verizon
-https://www.fiercewireless.com/5g/mareks-take-2022-year-peak-5g-spending | Dell'Oro,capex,AT&T,Verizon,5G,T-Mobile,5G
-https://www.fiercewireless.com/regulatory/verizon-pledges-whopping-45b-c-band-auction#:~:text=A%20lot%20of%20folks%20were,%2445.5%20billion%20in%20gross%20bids. | 5G,C-band,spectrum auction,AT&T,5G,Wireless,Dish Network,FCC,T-Mobile,Verizon
-https://www.fiercewireless.com/wireless/att-dish-top-list-fccs-345-ghz-auction-winners | FCC,3.45 GHz,5G spectrum,auction,5G,Wireless,AT&T,Verizon,Dish Network,T-Mobile,spectrum auction
-https://www.fiercewireless.com/tech/uscellular-sees-no-rush-deploy-5g-voice | us cellular,U.S. Cellular,Voice over NR (VoNR),5G,Tech,C-band,3.45 GHz,VoLTE
-https://www.fiercewireless.com/tech/uscellular-cites-advanced-tech-expand-5g-coverage | us cellular,5G,4G LTE,artificial intelligence (AI),Tech,regional carriers
-https://www.fiercewireless.com/5g/t-mobiles-5g-fights-fire-pano-ai-detection-system | T-Mobile,5G,2.5 GHz,rural areas,5G,artificial intelligence (AI)
-https://www.fiercewireless.com/wireless/five-pieces-advice-verizon-industry-voices-lowenstein | Verizon,Tracfone,5G,fixed wireless access,Wireless
+https://www.fiercewireless.com/5g/national-science-foundation-experiments-open-source-5g-technology | Feb 1, 2023 12:14pm | National Science Foundation,5G,open source,open RAN,5G
+https://www.fiercewireless.com/5g/ericsson-aerpaw-field-5g-demo-cattle-north-carolina | Sep 13, 2022 04:21pm | ericsson,agriculture,National Science Foundation,5G,5G,Drones
+https://www.fiercewireless.com/wireless/protests-apples-chinese-factory-likely-cause-iphone-shortages | Nov 28, 2022 11:50am | Apple,iphone,Foxconn,China,Wireless
+https://www.fiercewireless.com/tech/mareks-take-deciphering-satellite-cellular-opportunity | Jan 17, 2023 06:42am | Qualcomm,Lynk,Iridium,Apple,Tech,Globalstar,T-Mobile,AST SpaceMobile,Starlink
+https://www.fiercewireless.com/5g/samsung-networks-lures-two-executives-away-ericsson | Jan 30, 2023 11:53am | Samsung,ericsson,5G,5G
+https://www.fiercewireless.com/5g/nokia-samsung-sign-5g-patent-deal | Jan 23, 2023 11:01am | Nokia,Samsung,patent,5G,5G,IPR
+https://www.fiercewireless.com/5g/nokia-expects-mobile-be-its-fastest-growing-business-2023 | Jan 27, 2023 11:30am | Nokia,India,standalone (SA),5G,5G
+https://www.fiercewireless.com/wireless/ericsson-nokia-win-india-5g-deals-samsung-may-be-biggest-winner | Oct 18, 2022 10:43am | Samsung,Reliance Jio,bharti airtel,ericsson,Wireless,Nokia
+https://www.fiercewireless.com/5g/reliance-jio-launch-different-kind-fixed-wireless-access | Sep 6, 2022 12:38pm | Reliance Jio,fixed wireless access,5G,T-Mobile,5G,Verizon
+https://www.fiercewireless.com/private-wireless/amazon-launches-aws-private-5g-using-cbrs | Aug 12, 2022 11:05am | Amazon Web Services,Citizens Broadband Radio Service (CBRS),5G,4G LTE,Private Wireless,private wireless networks,private 5G
+https://www.fiercewireless.com/tech/mobilitie-rolls-2023-san-francisco-transit-deployment | Jan 6, 2023 05:40pm | mobilitie,BAI Communications,5G,distributed antenna system,Tech,Wi-Fi,small cells
+https://www.fiercewireless.com/wireless/bai-eyes-north-american-expansion-mobilitie-acquisition | Jun 28, 2021 03:46pm | 5G,DAS,distributed antenna system,network infrastructure,Wireless,smart city,Wi-Fi,BAI Communications,mobilitie,Transit Wireless
+https://www.fiercewireless.com/5g/inmarsat-combines-satellite-and-5g-for-new-type-network | Aug 2, 2021 11:19am | 5G,mobile satellite ventures,private 5G,private wireless networks,Private Wireless,Tech,5G,satellite broadband,satellite operators,Inmarsat
+https://www.fiercewireless.com/wireless/editor-s-corner-it-s-time-for-nationalized-5g-idea-to-die | Oct 26, 2020 12:41pm | 5G,Spectrum,spectrum sharing,CTIA,5G,Wireless,Department of Defense (DoD),Donald Trump,FCC,MoffettNathanson,New Street Research,Recon Analytics,Rivada Networks
+https://www.fiercewireless.com/5g/faa-require-airplanes-upgrade-altimeters-early-2024 | Jan 9, 2023 12:13pm | C-band,FAA,5G
+https://www.fiercewireless.com/5g/verizon-att-navigate-c-band-chaos-2022 | Dec 28, 2022 10:00am | AT&T,Verizon,FCC,Federal Aviation Administration,5G,C-band,5G,midband spectrum
+https://www.fiercewireless.com/5g/c-band-proposals-threaten-5g-access-homes-near-airports-pk | Nov 28, 2022 11:33am | FCC,Public Knowledge,C-band,Federal Aviation Administration,5G,5G,broadband access
+https://www.fiercewireless.com/5g/dish-awaits-fcc-nod-12-ghz-coexistence-test | Oct 13, 2022 05:06pm | Dish Network,12 GHz,FCC,RS Access,5G,Public Knowledge,Special Temporary Authority
+https://www.fiercewireless.com/wireless/dish-raise-another-500m-pay-5g-network | Jan 17, 2023 11:27am | Dish Network,5G,Wireless
+https://www.fiercewireless.com/wireless/dish-raise-2b-help-pay-5g-network-build | Nov 2, 2022 12:01pm | Dish Network,Boost Mobile,prepaid,5G,Wireless
+https://www.fiercewireless.com/wireless/ergen-berkman-use-spacs-latest-wireless-financing-scheme | Oct 6, 2020 09:58am | 5G NR,Charles Ergen,Dish Network,5G,Wireless
+https://www.fiercewireless.com/5g/t-mobile-rolls-out-cloud-native-4g5g-converged-core-gateway | Dec 15, 2022 12:42pm | T-Mobile,standalone (SA),non-standalone (NSA),5G,Tech,5G,Cisco,cloud-native
+https://www.fiercewireless.com/5g/vodafone-uk-trials-5g-standalone-plans-activate-next-year | Jan 23, 2023 11:52am | Vodafone UK,5G,standalone (SA),non-standalone (NSA),5G
+https://www.fiercewireless.com/tech/1nce-aims-disrupt-cellular-iot-os-front | Jan 23, 2023 11:54am | Internet of Things (IoT),5G,LTE-M,NB-IoT,Tech,LoRaWAN,Deutsche Telekom,SoftBank,T-Mobile,Sprint,Vodafone
+https://www.fiercewireless.com/tech/mavenir-follows-deutsche-telekom-germany-hungary-magyar-telekom-win | Nov 21, 2022 06:41am | Mavenir,Deutsche Telekom,5G,2G,Tech,Internet of Things (IoT),packet core
+https://www.fiercewireless.com/5g/2022-fixed-wireless-access-rises-5g-occasion-t-mobile-verizon | Dec 27, 2022 10:00am | T-Mobile,Verizon,AT&T,us cellular,5G,Starry,fixed wireless access,5G,4G LTE
+https://www.fiercewireless.com/tech/uscellular-sees-no-rush-deploy-5g-voice | Jan 17, 2023 12:31pm | us cellular,U.S. Cellular,Voice over NR (VoNR),5G,Tech,C-band,3.45 GHz,VoLTE
+https://www.fiercewireless.com/wireless/att-posts-813k-postpaid-net-adds-monster-q2 | Jul 21, 2022 01:06pm | AT&T,5G,quarterly earnings,price changes,Wireless,inflation,churn
+https://www.fiercewireless.com/tech/fwa-from-big-carriers-different-than-fwa-from-wisps | May 11, 2021 01:26pm | 5G,fixed wireless,fixed wireless access,FCC,5G,Wireless,Tech,T-Mobile,Verizon,Wireless Internet Service Providers Association (WISPA)
+https://www.fiercewireless.com/tech/t-mobile-s-ulf-ewaldsson-says-time-has-come-for-fixed-wireless | Apr 1, 2021 12:21pm | 5G,fixed wireless,fixed wireless access,ericsson,Wireless,Tech,Nex-Tech Wireless,T-Mobile,U.S. Cellular
+https://www.fiercewireless.com/operators/verizon-t-mobile-get-ready-to-rumble-cable | Mar 12, 2021 05:49pm | 2.5 GHz,5G,C-band,fixed wireless access,Wireless,AT&T,T-Mobile,Verizon
+https://www.fiercewireless.com/tech/t-mobiles-5g-network-gets-capacity-boost-mu-mimo-report | Jan 18, 2023 05:51pm | T-Mobile,Multi-user MIMO (MU-MIMO),signals research group,5G,Tech,2.5 GHz,fixed wireless access,Verizon
+https://www.fiercewireless.com/tech/6-ghz-readies-new-unlicensed-use-afc-applications-flow | Dec 1, 2021 12:26pm | 6 GHz,FCC,unlicensed spectrum,Amdocs,Wireless,Tech,Broadcom,CommScope,Federated Wireless,Google,Key Bridge Wireless,Kyrio,Nokia,Plume,Sony,Qualcomm,Wi-Fi Alliance,Wireless Broadband Alliance (WBA),HPE,Aruba Networks,Wi-Fi,Wi-Fi 6E
+https://www.fiercewireless.com/wireless/amdocs-says-its-doing-poc-trials-edge-services | Nov 22, 2022 02:43pm | Amdocs,5G,Wireless
+https://www.fiercewireless.com/5g/amdocs-eyes-5g-monetization-through-5g-open-innovation-lab | Oct 2, 2020 06:05pm | 5G,5G use case,cloud,edge computing,Tech,Wireless,5G,partnership,Amdocs,Dell,Intel,T-Mobile,VMware
+https://www.fiercewireless.com/5g/att-first-us-carrier-jump-ericsson-5g-startup-program | Feb 22, 2022 10:43am | AT&T,ericsson,5G,startups,Wireless,5G,5G use case,Verizon,T-Mobile,rootmetrics,John Stankey
+https://www.fiercewireless.com/5g/t-mobiles-fwa-offers-easy-set-industry-voices-jack-gold | May 18, 2022 02:59pm | T-Mobile,fixed wireless access,fixed wireless,Wireless,5G
+https://www.fiercewireless.com/wireless/sierra-wireless-expands-iot-wholesale-deal-t-mobile | Mar 18, 2022 12:35pm | T-Mobile,sierra wireless,IoT,5G,5G,Wireless,NB-IoT,MVNO
+https://www.fiercewireless.com/5g/at-t-adds-sub-6-ghz-5g-for-enterprise-iot | Aug 26, 2021 12:07pm | 5G,enterprise,industrial internet of things,internet of things,Wireless,5G,IoT,sub-6 GHz,AT&T,Cisco
+https://www.fiercewireless.com/5g/podcast-arvin-singh-managing-director-5g-edge-innovation-verizon-business | Nov 17, 2022 09:00am | podcast,Verizon Business,application developers,enterprise,Wireless,5G
+https://www.fiercewireless.com/private-wireless/tip-develops-blueprint-5g-private-wireless-networks | Nov 7, 2022 10:24am | Rakuten Symphony,NTT,telecom infra project,Tech Mahindra,Tech,Private Wireless,spirent,5G,private wireless networks,Nokia
