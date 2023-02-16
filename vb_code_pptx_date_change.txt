@@ -1,0 +1,27 @@
+Sub change_date()
+   Dim sld As Slide
+   Dim shp As Shape
+   Dim dateText As String
+   Dim newDate As String
+
+   ' Change this to the name of the text box that contains the date
+   Const textBoxName As String = "DateShape"
+
+   ' Format the new date as desired
+   newDate = Format(Now, "dd/mm/yyyy")
+
+   ' Loop through each slide in the active presentation
+   For Each sld In ActivePresentation.Slides
+      ' Check if the slide contains a shape with the specified name
+      If sld.Shapes.HasTitle Then
+         Dim sh As Shape
+         For Each sh In sld.Shapes
+            If sh.Name = textBoxName Then
+               dateText = sld.Shapes(textBoxName).TextFrame.TextRange.Text
+               dateText = Replace(dateText, dateText, newDate)
+               sld.Shapes(textBoxName).TextFrame.TextRange.Text = dateText
+            End If
+         Next sh
+      End If
+   Next sld
+End Sub
